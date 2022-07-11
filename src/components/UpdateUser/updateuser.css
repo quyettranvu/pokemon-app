@@ -1,0 +1,25 @@
+.update-content{
+    width: 100%;
+    font-size: 30px;
+    margin-left:100px;
+}
+
+.form-label{
+    display: block;
+}
+
+input{
+   box-sizing: border-box;
+   height:40px;
+   width:40%;
+}
+
+#button-update{
+    border-radius: 5px solid green;
+    background-color: aqua;
+    font-size:20px;
+}
+
+#button-update:hover{
+    background-blend-mode: darken;
+}

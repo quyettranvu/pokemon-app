@@ -1,0 +1,68 @@
+/*Footer background*/
+.footer{
+  margin-left:-10%;
+  margin-top:15%;
+  width:109.8%;
+  height:auto;
+}
+
+.blackline-left{
+  margin-top:17%;
+  position:absolute;
+  height:21%;
+  width:41%;
+}
+
+.blackline-right{
+  position:absolute;
+  margin-top:15.5%;
+  margin-left:-44.8%;
+  height:24%;
+  width:50%;
+  transform: scaleX(-0.8);
+}
+
+/*Pokeball with starting game*/
+.start-game {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 49.5%;
+    margin-top:26.5%;
+    background-color: none;
+    border-radius: 50%;
+    display: inline-block;
+    font-size:20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:10px;
+  }
+
+.start-game:hover{
+  cursor: pointer;
+}
+
+.pokeball-start{
+  position: absolute;
+  height:60%;
+  width:60%;
+  margin-left:20%;
+  margin-top:11%;
+}
+
+/*Background*/
+.background-start{
+  position:relative;
+  background-image: url('../../Ảnh Pokemon Dự Trù/фон\ общий-min.svg');
+  background-attachment: fixed;
+	background-size: cover;
+  height: 880px;
+}
+
+/*Logo*/
+.background-start .logo-tokemon{
+  position:absolute;
+  height:30%;
+  margin-left:35%;
+}
+

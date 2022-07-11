@@ -1,0 +1,164 @@
+.login_container {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../../Ảnh Pokemon Dự Trù/фон\ общий-min.svg');
+	background-position: 25% 75%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Navbar*/
+.navbar {
+	height: 110px;
+	background: linear-gradient(to right, rgb(18, 18, 130),lightblue);
+	position: absolute;
+	border-radius: 0% 0% 25px 25px;
+}
+
+.logo-tokemon{
+  height:120%;
+  margin-left:40%;
+}
+
+/*Pikachu-Pokeball*/
+.pikachu-pokeball{
+	position:absolute;
+	height:50%;
+	margin-top:18%;
+	margin-left:200px;
+}
+
+
+/*Login Form*/
+.login_form_container {
+	width: 900px;
+	height: 500px;
+	margin-top:40px;
+	margin-left:40%;
+	display: flex;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.bubble-speech::after{
+  content:"";
+  display: block;
+  position: absolute;
+
+  left:-55px;
+  bottom:0px;
+
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 60px solid white;
+}
+
+.left {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container div {
+	color: black;
+	font-size: 40px;
+	align-self: center;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #3bb19b;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.right h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 40px;
+	align-self: center;
+}
+
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.yellow_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: rgb(211, 211, 103);
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top:5px;
+}
+
+/*Icon at the right bottom of screen*/
+
+.english-icon{
+	position:relative;
+	width:55px;
+	height:70px;
+	margin-left:95.1%;
+	margin-top:50px;
+}
+
+.support-icon{
+	position: relative;
+	width:100px;
+	height:75px;
+	margin-left:94%;
+}

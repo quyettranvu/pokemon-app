@@ -1,0 +1,113 @@
+.site-main-game{
+    background: linear-gradient(to left, rgba(91, 86, 86, 0) 0%, rgba(178, 167, 167, 0) 30%, rgb(70, 83, 84) 100%);
+}
+.text-game{
+    position: absolute;
+    color:white;
+    font-size:40px;
+    margin-top:50px;
+    margin-left:30%;
+}
+
+/*Pokeballs*/
+#title-pack-pokeballs{
+    position: relative;
+    color:white;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:20px;
+    margin-left:-20px;
+}
+
+#pack-pokeballs{
+    position: relative;
+}
+
+#pokeballs-detail{
+    border-radius: 0px 30px 30px 0px;
+    background: linear-gradient(to right,aqua 50%, white 70%);
+    padding: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+.small-pokeball{
+    position:relative;
+    height:50px;
+    width:50px;
+    margin-top:-30px;
+}
+
+.text-pokeball-1{
+    position:relative;
+    margin-top:-10%;
+    color:brown;
+    margin-left:70%;
+    font-size: 30px;;
+}
+
+.text-pokeball-2{
+    position:relative;
+    margin-top:-10%;
+    color:silver;
+    margin-left:70%;
+    font-size: 30px;;
+}
+
+.text-pokeball-3{
+    position:relative;
+    margin-top:-10%;
+    color:gold;
+    margin-left:70%;
+    font-size: 30px;;
+}
+
+.text-pokeball-4{
+    position:relative;
+    margin-top:-10%;
+    color:green;
+    margin-left:67%;
+    font-size: 30px;;
+}
+
+/*Icon ShowDown*/
+.icon-showdown{
+    color:black;
+    position: absolute;
+    margin-top:-5%;
+    margin-left:67%;
+    height:20px;
+}
+
+/*Game History*/
+.game-history{
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;
+    outline: 5px black;
+    background:white;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    margin-left:35%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Icons below*/
+.english-icon-mainpage-game{
+    position:static;
+	width:55px;
+	height:70px;
+	margin-left:95.1%;
+	margin-top:9.5%;
+}
+
+.support-icon-mainpage-game{
+	position: static;
+	width:100px;
+	height:75px;
+	margin-left:94%;
+    margin-top:0%;
+}

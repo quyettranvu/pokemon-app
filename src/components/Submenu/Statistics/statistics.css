@@ -1,0 +1,13 @@
+.statistic-info{
+    margin-bottom:140px;
+}
+.statistic-info li{
+    display: block;
+    cursor: auto;
+	color:white;
+	list-style-type:none;
+    font-size:25px;
+    min-width:400px;
+    margin-left:70%;
+    margin-bottom:10%;
+}

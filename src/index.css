@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Start*/
+@import url("./components/StartGame/startgame.css");
+
+/*Log in*/
+@import url("./components/Login/login.css");
+
+/*Sign up*/
+@import url("./components/Signup/signup.css");
+
+/*Mainpage*/
+@import url("./components/MainPage/mainpage.css");
+
+/*Game*/
+@import url("./components/Submenu/Game/game.css");
+
+/*Referals*/
+@import url("./components/Submenu/Referals/referals.css");
+
+/*Statistics*/
+@import url("./components/Submenu/Statistics/statistics.css");
+
+/*Update User*/
+@import url("./components//UpdateUser/updateuser.css");
